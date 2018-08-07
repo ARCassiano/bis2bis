@@ -22,5 +22,6 @@
 	 *	saque("21:20"); // retorna "jogador a"
 	 *	saque("21:22"); // retorna "jogador b"
 	 */
+	echo "Parâmetro sendo passado na função saque($placar): " . $placar . "<br>";
 	echo "O saque pertence ao " . saque($placar);
 ?>

@@ -24,6 +24,8 @@
 		$pontuacaoTotal		= $pontuacaoJogadorA + $pontuacaoJogadorB;	
 		$qtdSaque			= (int) $pontuacaoTotal % 5;
 
+		echo "Soma do placar: " . $pontuacaoTotal . "<br>";
+		echo "Quantidade de Saques utilizados: " . $qtdSaque . "<br>";
 
 		if($qtdSaque % 2 == 0)
 			$jogador 	= "jogador a";
