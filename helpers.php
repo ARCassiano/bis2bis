@@ -22,8 +22,14 @@
 		$pontuacaoJogadorA	= $placarVet[0];
 		$pontuacaoJogadorB	= $placarVet[1];
 		$pontuacaoTotal		= $pontuacaoJogadorA + $pontuacaoJogadorB;	
-		$qtdSaque			= (int) $pontuacaoTotal / 5;
+		$qtdSaquePorJogador	= 5;
 
+		if($pontuacaoJogadorA >= 20 && $pontuacaoJogadorB >= 20)
+			$qtdSaquePorJogador	= 2;
+
+		$qtdSaque			= (int) $pontuacaoTotal / $qtdSaquePorJogador;
+
+		echo "Quantidade de saques por jogador: " . $qtdSaquePorJogador . "<br>";
 		echo "Soma do placar: " . $pontuacaoTotal . "<br>";
 		echo "Quantidade de Saques utilizados: " . $qtdSaque . "<br>";
 
