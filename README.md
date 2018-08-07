@@ -1,4 +1,4 @@
-# bis2bis - Teste de lógica para a vaga de Programador Back-End em PHP
+# Bis2Bis - Teste de lógica para a vaga de Programador Back-End em PHP
 
 # Teste Lógica de Programação
 
@@ -22,19 +22,20 @@ Um jogo termina quando um dos jogadores chega em 21 pontos com uma liderança m�
 2 pontos. Porém, caso um jogo chegue numa pontuação "20:20", o vencedor será o primeiro
 jogador a alcançar uma liderança de 2 pontos.
 
-  # Observações:
+  # Observações
     ● Não há necessidade de validar as entradas, considere que elas sempre estarão em formato válido
     ● Não é necessário checar se um dos jogadores já ganhou, este caso não será utilizado nos testes do algoritmo.
     ● O "jogador a" sempre começa sacando.
 
-# Exemplos:
+# Exemplos
   Exemplos de chamada de função:
+  
     saque("0:0"); // retorna "jogador a"
     saque("3:2"); // retorna "jogador b"
     saque("21:20"); // retorna "jogador a"
     saque("21:22"); // retorna "jogador b"
     
-# Considerções para a execução do teste
-  Escolha da linguagem:
-    Para este teste de lógica será utilizado PHP justamente por se enquadrar com o perfil indicado para a vaga
+# Considerações
+ 
+    Para este teste de lógica será utilizado a linguagem de programação PHP, justamente por se enquadrar com o perfil indicado para a vaga em questão.
   
