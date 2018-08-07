@@ -18,7 +18,7 @@
 	function saque($placar = "0:0"){
 		
 		$jogador			= "jogador a";
-		$placarVet			= explode($placar, $placar);
+		$placarVet			= explode(":", $placar);
 		$pontuacaoJogadorA	= $placarVet[0];
 		$pontuacaoJogadorB	= $placarVet[1];
 		$pontuacaoTotal		= $pontuacaoJogadorA + $pontuacaoJogadorB;	
